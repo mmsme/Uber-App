@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriverRegFrag">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <EditText
+            android:id="@+id/signin_driver_name"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/login_act_design"
+            android:drawableLeft="@drawable/person_icon"
+            android:drawablePadding="10dp"
+            android:hint="Name"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/signin_driver_email"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/signin_driver_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/login_act_design"
+            android:drawableLeft="@drawable/mail_icon"
+            android:drawablePadding="10dp"
+            android:hint="Email"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/signin_driver_password"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signin_driver_email"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/login_act_design"
+            android:drawableLeft="@drawable/lock_icon"
+            android:drawablePadding="9dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/signin_driver_phone"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signin_driver_password"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/login_act_design"
+            android:drawableLeft="@drawable/phone_icon"
+            android:drawablePadding="9dp"
+            android:hint="Phone"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/signin_driver_car"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signin_driver_phone"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/login_act_design"
+            android:drawableLeft="@drawable/car_icon"
+            android:drawablePadding="9dp"
+            android:hint="Car Type"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/signin_driver_car_model"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signin_driver_car"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/login_act_design"
+            android:drawableLeft="@drawable/car_icon"
+            android:drawablePadding="9dp"
+            android:hint="Car Model"
+            android:padding="10dp" />
+
+
+        <Button
+            android:id="@+id/Sign_driver_btn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/signin_driver_car_model"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/sumbit_btn_design"
+            android:text="Submit"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</RelativeLayout>

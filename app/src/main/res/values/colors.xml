@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#041c45</color>
+    <color name="colorPrimaryDark">#020823</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Main_background_color">#FF21273D</color>
+    <color name="white">#FFF</color>
+    <color name="btn_sign_in">#fdfdf6</color>
+    <color name="login_edtxt_color">#beffffff</color>
+    <color name="bottomColor">#57ffffff</color>
+    <color name="pay_walet_btn">#ffd700</color>
+    <color name="card_grey">#DDD</color>
+    <color name="card_bottom">#364e68</color>
+    <color name="gold">#f3ab04</color>
+    <color name="opcity_white">#B0FFFFFF</color>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Uber</string>
+    <string name="nav_drawer_open">Open Navigation</string>
+    <string name="nav_drawer_close">Clost Navigation</string>
+    <string name="inbox_title">Inbox</string>
+    <string name="history_title">History</string>
+    <string name="payment_title">Payment</string>
+    <string name="setting_title">Setting</string>
+    <string name="driver">Driver</string>
+    <string name="customer">Customer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

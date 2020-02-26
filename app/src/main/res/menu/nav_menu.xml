@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nav_menu_home"
+            android:icon="@drawable/home_icon"
+            android:title="Home"></item>
+
+        <item
+            android:id="@+id/nav_menu_inbox"
+            android:icon="@drawable/inbox_icon"
+            android:title="Inbox"></item>
+
+        <item
+            android:id="@+id/nav_menu_history"
+            android:icon="@drawable/history_icon"
+            android:title="History"></item>
+
+        <item
+            android:id="@+id/nav_menu_payment"
+            android:icon="@drawable/ic_credit_card_black_24dp"
+            android:title="Payment"></item>
+
+        <item
+            android:id="@+id/nav_menu_setting"
+            android:icon="@drawable/setting_icon"
+            android:title="Setting"></item>
+
+        <item
+            android:id="@+id/nav_menu_logout"
+            android:icon="@drawable/logout_icon"
+            android:title="Log out"></item>
+    </group>
+
+
+</menu>

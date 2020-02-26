@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Main_background_color"
+    tools:context=".MainActivity">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/intro_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="689dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="42dp">
+
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/dots_layout"
+        android:layout_width="43dp"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/my_next_btn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/Main_background_color"
+        android:padding="0dp"
+        android:text="next"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:visibility="invisible" />
+</RelativeLayout>
